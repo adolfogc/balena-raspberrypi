@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.15.1+rev3
+## (2018-09-10)
+
+* Load the kernel from the rootfs [Zubair Lutfullah Kakakhel]
+
 # v2.15.1+rev2
 ## (2018-09-08)
 
