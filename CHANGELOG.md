@@ -1,6 +1,14 @@
 Change log
 -----------
 
+# v2.18.0+rev1
+## (2018-09-13)
+
+* Update the meta-resin submodule to v2.18.0 [Florin Sarbu]
+* Update the BSP submodule to latest sumo branch for PoE HAT support [Florin Sarbu]
+* Update the meta-openembedded submodule to latest sumo branch [Florin Sarbu]
+* Update the poky submodule to sumo-19.0.1 [Florin Sarbu]
+
 # v2.15.1+rev2
 ## (2018-09-08)
 
