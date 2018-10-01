@@ -1,4 +1,22 @@
 - commits:
+    - subject: Change u-boot's CONFIG_AUTOBOOT_DELAY_STR to 'pause'
+      hash: 62deeebb76cd2982f03f475658bee27ff2362af9
+      body: |
+        Currently, CONFIG_AUTOBOOT_DELAY_STR is set to the space character.
+        However, in cases where there is another piece of hardware connected
+        to the Pi's UART, it is likely that this connected hardware sends the
+        space char, thus putting the autoboot process to a halt. So we change
+        this to be the 'pause' string instead to reduce likeliness of an
+        accidental delay happening.
+      footer:
+        Changelog-entry: Change u-boot's CONFIG_AUTOBOOT_DELAY_STR to 'pause'
+        changelog-entry: Change u-boot's CONFIG_AUTOBOOT_DELAY_STR to 'pause'
+        Signed-off-by: Florin Sarbu <florin@resin.io>
+        signed-off-by: Florin Sarbu <florin@resin.io>
+      author: Florin Sarbu
+  version: 2.18.0+rev1
+  date: 2018-10-01T13:27:58.779Z
+- commits:
     - subject: Add repo and changelog yml files
       hash: 7448d0df446d7fe3d1f29359d61380c46f963275
       body: |

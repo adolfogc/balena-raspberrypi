@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.18.0+rev1
+## (2018-10-01)
+
+* Change u-boot's CONFIG_AUTOBOOT_DELAY_STR to 'pause' [Florin Sarbu]
+
 # v2.15.1+rev3
 ## (2018-09-14)
 
