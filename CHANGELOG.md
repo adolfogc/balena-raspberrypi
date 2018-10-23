@@ -1,6 +1,27 @@
 Change log
 -----------
 
+# v2.23.0+rev1
+## (2018-10-23)
+
+* Update meta-resin from v2.22.1 to v2.23.0 [Florin Sarbu]
+
+<details>
+<summary> View details </summary>
+
+## meta-resin-2.23.0
+### (2018-10-22)
+
+* Update resin-supervisor to v7.25.5
+* Recipes-containers: Increase healthcheck timeout to 180s
+* .gitignore: add node_modules and package-lock files
+
+## meta-resin-2.22.1
+### (2018-10-20)
+
+* Update resin-supervisor to v7.25.3
+</details>
+
 # v2.22.1+rev1
 ## (2018-10-20)
 
