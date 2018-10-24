@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update meta-resin from v2.22.1 to v2.24.0
+      hash: 38678e95a5551cf8f881b32ef250db59f95f5949
+      body: |
+        Update meta-resin from 2.22.1 to 2.24.0
+      footer:
+        Changelog-entry: Update meta-resin from v2.22.1 to v2.24.0
+        changelog-entry: Update meta-resin from v2.22.1 to v2.24.0
+        Signed-off-by: Florin Sarbu <florin@resin.io>
+        signed-off-by: Florin Sarbu <florin@resin.io>
+      author: Florin Sarbu
+  version: 2.24.0+rev1
+  date: 2018-10-24T08:09:14.011Z
+- commits:
     - subject: Update meta-resin from v2.22.0 to v2.22.1
       hash: dfeefd3c45507c8d0492523e81a011c27f8c9c6c
       body: |
