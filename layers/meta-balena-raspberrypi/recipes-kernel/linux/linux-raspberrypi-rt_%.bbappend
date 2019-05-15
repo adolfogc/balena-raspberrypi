@@ -9,8 +9,8 @@ SRC_URI_append = " \
 	file://0001-Add-npe-x500-m3-overlay.patch \
 "
 
-LINUX_VERSION ?= "4.14.114"
-SRCREV = "caa653325d58e5062907ec378269e77e6018f2ee"
+LINUX_VERSION = "4.14.81"
+SRCREV = "acf578d07d57480674d5361df9171fe9528765cb"
 
 # Set console accordingly to build type
 DEBUG_CMDLINE = "dwc_otg.lpm_enable=0 console=tty1 console=serial0,115200 rootfstype=ext4 rootwait"
